@@ -67,16 +67,16 @@ public class Responder
      */
     private void fillResponseMap()
     {
-        responseMap.put("crash", 
+        responseMap.put("crash",
                         "Well, it never crashes on our system. It must have something\n" +
-                        "to do with your system. Tell me more about your configuration.");
+                        "to do with your system. Could you tell me more about your configuration?");
         responseMap.put("crashes", 
                         "Well, it never crashes on our system. It must have something\n" +
-                        "to do with your system. Tell me more about your configuration.");
+                        "to do with your system. Can you tell me more about your configuration?");
         responseMap.put("slow", 
                         "I think this has to do with your hardware. Upgrading your processor\n" +
                         "should solve all performance problems. Have you got a problem with\n" +
-                        "our software?");
+                        "our software recently?");
         responseMap.put("performance", 
                         "Performance was quite adequate in all our tests. Are you running\n" +
                         "any other processes in the background?");
@@ -98,19 +98,19 @@ public class Responder
                         "We apologize for the inconvenience.");
         responseMap.put("expensive", 
                         "The cost of our product is quite competitive. Have you looked around\n" +
-                        "and really compared our features?");
+                        "and really compared our features and prices?");
         responseMap.put("installation", 
                         "The installation is really quite straight forward. We have tons of\n" +
                         "wizards that do all the work for you. Have you read the installation\n" +
-                        "instructions?");
+                        "instructions provided for you?");
         responseMap.put("memory", 
                         "If you read the system requirements carefully, you will see that the\n" +
                         "specified memory requirements are 1.5 giga byte. You really should\n" +
-                        "upgrade your memory. Anything else you want to know?");
+                        "upgrade your memory. Anything else you want to know about memory?");
         responseMap.put("linux", 
                         "We take Linux support very seriously. But there are some problems.\n" +
                         "Most have to do with incompatible glibc versions. Can you be a bit\n" +
-                        "more precise?");
+                        "more precise on the issue?");
         responseMap.put("bluej", 
                         "Ahhh, BlueJ, yes. We tried to buy out those guys long ago, but\n" +
                         "they simply won't sell... Stubborn people they are. Nothing we can\n" +
