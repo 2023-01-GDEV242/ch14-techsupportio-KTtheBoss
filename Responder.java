@@ -90,10 +90,12 @@ public class Responder
                         "further?");
         responseMap.put("windows", 
                         "This is a known bug to do with the Windows operating system. Please\n" +
-                        "report it to Microsoft. There is nothing we can do about this.");
+                        "report it to Microsoft. There is nothing we can do about this\n" +
+                        "We apologize for the inconvenience.");
         responseMap.put("macintosh", 
                         "This is a known bug to do with the Mac operating system. Please\n" +
-                        "report it to Apple. There is nothing we can do about this.");
+                        "report it to Apple. There is nothing we can do about this\n" +
+                        "We apologize for the inconvenience.");
         responseMap.put("expensive", 
                         "The cost of our product is quite competitive. Have you looked around\n" +
                         "and really compared our features?");
@@ -112,7 +114,7 @@ public class Responder
         responseMap.put("bluej", 
                         "Ahhh, BlueJ, yes. We tried to buy out those guys long ago, but\n" +
                         "they simply won't sell... Stubborn people they are. Nothing we can\n" +
-                        "do about it, I'm afraid.");
+                        "do about it, I'm afraid. Is there anything else we can assist you with?");
     }
 
     /**
